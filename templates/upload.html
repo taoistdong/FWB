@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公众道场文书生成助手 version 1.0</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <h1>公众道场文书生成助手 1.0</h1>
+    <main>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <div class="form-row">
+                <label for="word_file">上传文书模版</label>
+                <input type="file" name="word_file" id="word_file" required>
+            </div>
+            <div class="form-row">
+                <label for="excel_file">上传信息表格</label>
+                <input type="file" name="excel_file" id="excel_file" required>
+            </div>
+            <button type="submit">批量生成文书</button>
+        </form>
+    </main>
+    <footer>
+        <span>powered by DONG 2024</span>
+    </footer>
+</body>
+</html>
